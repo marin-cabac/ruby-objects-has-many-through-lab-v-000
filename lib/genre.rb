@@ -1,5 +1,5 @@
 class Genre
-  attr_accessor :name
+  attr_accessor :name, :song
   def initialize(name)
     @name = name
     @songs = []
@@ -12,6 +12,7 @@ class Genre
   def add_song(song)
     @songs << song
   end
+  
   def artists
     @songs.map {|s| s.artist}
       end
