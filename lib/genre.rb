@@ -5,7 +5,7 @@ def initialize(name)
   @songs=[]
 
 end
-def add_songs(s)
+def add_song(s)
   @songs<<s
   s.artist=self
 end
@@ -18,3 +18,5 @@ def artists
   @songs.map{|s|s.artist}
 end
 end 
+
+
