@@ -6,7 +6,7 @@ class Artist
   end
   def add_song(s)
     @songs<<s
-    s.artists=self
+    s.artist=self
   end
   def genres
     @songs.map{|s| s.genre}
