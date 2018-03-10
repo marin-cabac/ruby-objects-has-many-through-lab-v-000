@@ -17,6 +17,4 @@ end
 def artists
   @songs.map{|s|s.artist}
 end
-end 
-
-
+end
