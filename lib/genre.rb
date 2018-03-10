@@ -9,4 +9,14 @@ def add_songs(s)
   @songs<<s
   s.artist=self
 end
+
+def songs
+  @songs
 end 
+
+def artists
+  @songs.map{|s|s.artist}
+end 
+end 
+ 
+
