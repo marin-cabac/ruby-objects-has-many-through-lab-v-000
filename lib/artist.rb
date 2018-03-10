@@ -7,7 +7,7 @@ class Artist
 
   def add_song(song)
   @songs << (song.artist=self)
-  
+
   end
 
   def genres
