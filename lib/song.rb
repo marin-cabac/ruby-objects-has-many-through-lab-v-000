@@ -3,12 +3,12 @@ class Song
   def initialize(name,genre)
     @name=name
     @genre=genre
-  end 
+  end
   def genre(genre)
     self.genre=genre
-  end 
+  end
 
   def artist(artist)
     self.artist=artist
-  end 
-end 
+  end
+end
