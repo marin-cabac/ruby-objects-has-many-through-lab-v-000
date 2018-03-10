@@ -9,10 +9,8 @@ class Genre
     @songs
   end
 
-  def add_song(song)
-    @songs << song
-  end
-  
+   
+
   def artists
     @songs.map {|s| s.artist}
       end
