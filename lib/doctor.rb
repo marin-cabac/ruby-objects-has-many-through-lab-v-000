@@ -7,6 +7,10 @@ end
 def appointments
   @appointments
 end
+def add_appointment(apt)
+  @appointments << apt
+  apt.doctor=self
+end 
 
 def patients
   @appointments.map{|x|x.patient}
