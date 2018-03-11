@@ -3,17 +3,15 @@ class Artist
   def initialize(name)
     @name=name
     @songs=[]
-  end 
+  end
   def add_song(s)
     @songs << s
     s.artist =self
-  end 
+  end
   def songs
     @sogns
-  end 
+  end
   def genres
     @songs.map{|x|x.genre}
-  end 
+  end
 end 
-  
-  
