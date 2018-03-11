@@ -5,8 +5,8 @@ class Artist
     @songs=[]
   end
   def add_song(s)
-    @songs << s
-    s.artist =self
+    @songs << (s.artist =self)
+    
   end
   def songs
     @songs
