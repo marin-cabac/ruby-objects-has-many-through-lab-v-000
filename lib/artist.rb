@@ -9,7 +9,7 @@ class Artist
     s.artist =self
   end
   def songs
-    @sogns
+    @songs
   end
   def genres
     @songs.map{|x|x.genre}
