@@ -13,4 +13,4 @@ class Genre
   def artists
     @songs.map{|x|x.artist}
   end
-end 
+end
